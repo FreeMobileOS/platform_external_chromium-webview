@@ -1,0 +1,6 @@
+Our version of the system webview is built with the chromium.sh
+script in the app_build_scripts repository.
+
+Since we only support aarch64 platforms for now, the non-aarch64
+versions of the system webview are copied from AOSP; only the aarch64
+version has been replaced.
